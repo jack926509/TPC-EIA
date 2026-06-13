@@ -393,12 +393,12 @@
 <div class="plant-tabs" role="tablist" aria-label="電廠選擇">
   <button id="ptab-taichung" class="on" role="tab" aria-selected="true" tabindex="0" onclick="selectPlant('taichung')">台中<small>燃氣一二期</small></button>
   <button id="ptab-hsiehho" role="tab" aria-selected="false" tabindex="-1" onclick="selectPlant('hsiehho')">協和<small>更新改建</small></button>
-  <button id="ptab-dalin" role="tab" aria-selected="false" tabindex="-1" onclick="selectPlant('dalin')">大林<small>營運期限制</small></button>
+  <button id="ptab-dalin" role="tab" aria-selected="false" tabindex="-1" onclick="selectPlant('dalin')">大林<small>燃氣計劃</small></button>
 </div>
 <div class="wrap">
 <aside aria-label="章節導覽">
   <div class="brand" id="brand">台中電廠燃氣計畫 · 環說書摘要</div>
-  <div class="brand-sub" id="brandSub">一期（2 部）╱二期（4 部）<br>第 5、7、8 章重點整理</div>
+  <div class="brand-sub" id="brandSub">一期（2 部）╱二期（4 部）</div>
   <div id="sidebarNav">
     <div class="nav-block on" data-nav="taichung:p1"><nav aria-label="台中一期章節">
     <div class="grp">第五章 目的及內容</div>
@@ -1656,9 +1656,9 @@
   const root=document.documentElement, body=document.body;
   const PLANTS=['taichung','hsiehho','dalin'];
   const BRAND={
-    taichung:['台中電廠燃氣計畫 · 環說書摘要','一期（2 部）╱二期（4 部）<br>第 5、7、8 章重點整理'],
-    hsiehho:['協和電廠環評 · 重點摘要','更新改建計畫 環評報告書（定稿本）<br>第 5、7、8、9 章重點整理'],
-    dalin:['大林電廠環說書 · 營運期間限制','燃氣機組更新改建計畫（定稿本）<br>營運期間環境限制重點']
+    taichung:['台中電廠燃氣計畫 · 環說書摘要','一期（2 部）╱二期（4 部）'],
+    hsiehho:['協和電廠燃氣計畫 · 環說書摘要','更新改建計畫'],
+    dalin:['大林電廠燃氣計畫 · 環說書摘要','燃氣機組更新改建計畫']
   };
   let curPlant='taichung', curSub='p1';
 
